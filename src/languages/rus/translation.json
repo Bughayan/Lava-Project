@@ -1,0 +1,24 @@
+{
+  "navLinkWords": {
+    "Home": "Главная",
+    "About": "О нас",
+    "Services": "Услуги",
+    "Partners": "Партнёры",
+    "Pricing": "Цены",
+    "Contact": "Контакты"
+  },
+  "VideoSectionWorld": {
+    "Advanced_Fleet": "Современное Решение",
+    "Management": "Для Управления",
+    "Solution": "Автопарком",
+    "GET_STARTED": "НАЧАТЬ"
+  },
+
+  "AboutWorld": {
+    "About_Us": "О нас",
+    "LEARN_MORE": "УЗНАТЬ БОЛЬШЕ"
+  },
+    "findWorld":{
+    "Find_your_truck" :"Найдите ваш грузовик"
+  }
+}

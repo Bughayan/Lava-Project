@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.videodiv {
+  max-width: 1500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+.video {
+  max-width: 1500px;
+}
+
+.video video {
+  width: 100%;
+  object-fit: cover;
+  max-height: 100vh;
+  height: 100%;
+  filter: brightness(65%);
+}
+
+.videotext {
+  max-width: 527px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 152px;
+  left: 100px;
+}
+
+.videotext h1 {
+  font-size: 70px;
+  line-height: 80px;
+  font-family: "Rethink Sans", sans-serif;
+}
+
+.videotext button {
+  padding: 15px 55px;
+  margin-top: 63px;
+  background-color: rgba(8, 109, 148, 0.53);
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-size: 32px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+}
+
+.ams {
+  display: inline-block;
+  opacity: 0;
+  transform: translateX(-400px);
+  animation: textleft 0.8s forwards;
+}
+
+@keyframes textleft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "navLinkWords": {
+    "Home": "Գլխավոր էջ",
+    "About": "Մեր մասին",
+    "Services": "ծառայություններ",
+    "Partners": "գործընկերներ",
+    "Pricing": "Գնացուցակ",
+    "Contact": "Կապ"
+  },
+
+  "VideoSectionWorld": {
+    "Advanced_Fleet": "Ավտոհավաքակայանների Կառավարման",
+    "Management": "Առաջադեմ",
+    "Solution": "Լուծում",
+    "GET_STARTED": "ՍԿՍԵՔ"
+  },
+
+  "AboutWorld": {
+    "About_Us": "Մեր մասին",
+    "LEARN_MORE": "ԻՄԱՆԱԼ ԱՎԵԼԻՆ"
+  },
+    "findWorld":{
+    "Find_your_truck" :"Գտեք ձեր բեռնատարը"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "navLinkWords": {
+    "Home": "Home",
+    "About": "About",
+    "Services": "Services",
+    "Partners": "Partners",
+    "Pricing": "Pricing",
+    "Contact": "Contact"
+  },
+  "VideoSectionWorld": {
+    "Advanced_Fleet": "Advanced Fleet",
+    "Management": "Management",
+    "Solution": "Solution",
+    "GET_STARTED": "GET STARTED"
+  },
+    "AboutWorld": {
+    "About_Us": "About Us",
+    "LEARN_MORE": "LEARN MORE"
+  },
+
+  "findWorld":{
+    "Find_your_truck" :"Find your truck"
+  }
+}

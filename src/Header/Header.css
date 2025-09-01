@@ -1,0 +1,92 @@
+header {
+  max-width: 1500px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.46);
+  display: block;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  width: 137px;
+  height: 39px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nav-link {
+  color: #086d94;
+  margin: 0 30px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+.flag_dropdown {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.flag-div-option {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease;
+}
+
+.flag-div-option.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.flag-div-option {
+  position: absolute;
+  top: 24px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: transparent;
+  z-index: 10;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, visibility 0.3s ease;
+}
+
+.flag-choosen:hover,
+.flag-option:hover {
+  transform: scale(1.12);
+}
+
+.flag-div-option.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.flag-choosen,
+.flag-option {
+  width: 48px;
+  height: 28px;
+  border-radius: 3px;
+  transition: transform 0.2s ease;
+  display: block;
+}

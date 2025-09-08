@@ -7,16 +7,17 @@
   min-height: 689px;
   background-size: 100%;
   background-repeat: no-repeat;
+  /* margin-left: 100px; */
   margin: 0 auto;
 }
-
 .find {
   max-width: 613px;
-  padding: 18px 84px;
+  padding: 26px 84px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .find h1 {
   color: rgba(8, 109, 148, 1);
   font-weight: 400;
@@ -25,26 +26,28 @@
   letter-spacing: 0.4px;
   font-family: "Rethink Sans", sans-serif;
 }
-
-/* .storeButtons {
+.storeButtons {
   display: flex;
-  justify-content: left;
   gap: 22px;
-  margin-left: 81px;
-  left: 81px;
-} */
+}
 
-/* .storeButtons img {
+.app_btn {
   max-width: 248px;
+}
+
+.app_btn img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   cursor: pointer;
-} */
+}
 
 /* .findImg {
   max-width: 613px;
 } */
 
 /* .findImg img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  } */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */

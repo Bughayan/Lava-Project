@@ -1,0 +1,40 @@
+.pricecontainer {
+  max-width: 1500px;
+  width: 100%;
+  /* max-height: 2208px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; */
+  margin: 0 auto;
+  border: 2px solid palevioletred;
+  margin: 14px auto 0 auto;
+}
+
+.pricing_text {
+  margin-top: 506px   ;
+
+  text-align: center;
+}
+.pricing_text h1 {
+  font-family: "Rethink Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  line-height: 80px;
+  letter-spacing: 0.4px;
+  color: rgba(8, 109, 148, 1);
+  text-align: center;
+}
+
+.pricing_text p {
+  font-family: "Rethink Sans", sans-serif;
+  font-weight: 700;
+
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: -0.6px;
+  text-align: center;
+  color: rgba(8, 109, 148, 1);
+  padding: 0 112px 0 133px;
+  margin-top: 37px;
+}

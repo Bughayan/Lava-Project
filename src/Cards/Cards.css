@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;600;700&display=swap');
+
+.cards {
+  max-width: 1500px;
+  min-height: 604px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 68px;
+  transform: translate(200px, -261px);
+  margin: 0 auto;
+  position: absolute;
+}
+
+.card {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 13px 22px 22px rgba(0, 0, 0, 0.25);
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 25px;
+}
+
+.vector {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
+  min-height: 82px;
+}
+
+.card h1 {
+   font-family: "Rethink Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(8, 109, 148, 1);
+  margin-top: 46px;
+  text-align: center;
+}
+
+.card p {
+  font-family: "Rethink Sans", sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 33px;
+  letter-spacing: -0.6px;
+  text-align: center;
+  color: rgba(8, 109, 148, 1);
+  max-width: 338px;
+  margin-top: 35px;
+}
+
+.card button {
+  background-color: rgba(8, 109, 148, 1);
+  padding: 7px 28px;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 64px;
+  letter-spacing: 0.4px;
+  border: none;
+  margin-top: 38px;
+  cursor: pointer;
+}

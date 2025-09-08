@@ -1,0 +1,38 @@
+@media screen and (max-width: 1365px) {
+  .find {
+    max-width: 400px;
+  }
+
+  .find h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 1255px) {
+  .find {
+    max-width: 353px;
+  }
+
+  .find h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1085px) {
+  .find {
+    max-width: 283px;
+  }
+
+  .find h1 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 1041px) {
+  .find {
+    max-width: 200px;
+  }
+
+  .find h1 {
+    font-size: 18px;
+  }
+}

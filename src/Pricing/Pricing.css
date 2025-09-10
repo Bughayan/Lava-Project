@@ -1,17 +1,22 @@
 .pricecontainer {
   max-width: 1500px;
   width: 100%;
-  /* max-height: 2208px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column; */
+  max-height: 2208px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   margin: 0 auto;
-  border: 2px solid palevioletred;
   margin: 14px auto 0 auto;
+  min-height: 1025px;
+  /* position: absolute;
+  top: 50%;
+  left: 10%; */
 }
-
+.price_parennt {
+  /* position: relative; */
+}
 .pricing_text {
-  margin-top: 506px   ;
+  /* margin-top: 506px; */
 
   text-align: center;
 }
@@ -37,4 +42,94 @@
   color: rgba(8, 109, 148, 1);
   padding: 0 112px 0 133px;
   margin-top: 37px;
+}
+.pice_cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 61px;
+  margin-top: 84px;
+}
+.price_card {
+  background-color: rgba(98, 68, 242, 1);
+  max-width: 378px;
+  min-height: 604px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 13px 22px 22px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.price_card div {
+  display: flex;
+  gap: 13px;
+  margin-bottom: 20px;
+  align-items: flex-start; /* align vertically at start */
+  justify-content: flex-start; /* align horizontally at start */
+  width: 100%;
+  margin-left: 24px;
+  
+}
+.price_card h1 {
+  font-family: "Rethink Sans", sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 40px;
+}
+.white-line {
+  border: none;
+  height: 1px;
+  background: white;
+  margin: 17px 0 30px 0;
+  min-width: 338px;
+  padding: 0 25px;
+}
+.second {
+  margin: 13px 0 30px 0;
+}
+
+.price_card h2 {
+  font-family: "Rethink Sans", sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 36px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 30px;
+}
+
+.price_card p {
+  font-family: "Rethink Sans", sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 33px;
+  letter-spacing: -0.6px;
+ 
+}
+
+.price_card button {
+  background-color: transparent;
+  padding: 7px 28px;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  font-style: normal;
+  font-size: 32px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  margin-top: 38px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 32px;
+  line-height: 64px;
+  letter-spacing: 0.4px;
+  margin-top: 30px;
 }

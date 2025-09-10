@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;600;700&display=swap');
 
+
+/* .cards_parrent{
+  position: relative;
+} */
 .cards {
   max-width: 1500px;
   min-height: 604px;
@@ -9,9 +13,12 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 68px;
-  transform: translate(200px, -261px);
-  margin: 0 auto;
-  position: absolute;
+  /* transform: translate(200px, -261px); */
+   margin: -260px auto 0 auto;
+  /* position: absolute;
+  top: -140px;
+  left: 10%;
+  z-index: 100; */
 }
 
 .card {

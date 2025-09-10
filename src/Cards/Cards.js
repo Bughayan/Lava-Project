@@ -6,6 +6,7 @@ import vector3 from "../Images/icons/Vector3.png";
 export default function Cards() {
   return (
     <>
+    <div className="cards_parrent">
       <div className="cards">
         <div className="card">
           <dv className="vector">
@@ -46,6 +47,7 @@ export default function Cards() {
           </p>
           <button>LEARN MORE</button>
         </div>  
+      </div>
       </div>
     </>
   );

@@ -1,0 +1,59 @@
+@media screen and (max-width: 1110px) {
+  .videotext {
+    max-width: 330px;
+  }
+  .videotext h1 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .videotext button {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .videotext {
+    max-width: 200px;
+    top: 109px;
+  }
+  .videotext h1 {
+    font-size: 26px;
+    line-height: 39px;
+  }
+  .videotext button {
+    padding: 10px 50px;
+    font-size: 27px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .videotext {
+    max-width: 180px;
+    top: 88px;
+  }
+
+  .videotext h1 {
+    font-size: 20px;
+    line-height: 34px;
+  }
+  .videotext button {
+    padding: 5px 45px;
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .videotext {
+    max-width: 86px;
+    top: 93px;
+  }
+  .videotext h1 {
+    font-size: 10px;
+    line-height: 13px;
+  }
+  .videotext button {
+    padding: 5px 35px;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,48 @@
+@media screen and (max-width: 1330px) {
+  .about {
+    max-width: 394px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .about {
+    max-width: 283px;
+  }
+
+  .about h1 {
+    font-size: 50px;
+  }
+
+  .about p {
+    margin-top: 15px;
+  }
+
+  .about button {
+    font-size: 16px;
+    padding: 0px 71px;
+  }
+  .divImage {
+    min-height: 610px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .about h1 {
+    font-size: 35px;
+  }
+  .about p {
+    margin-top: 0;
+    font-size: 12px;
+  }
+  .about {
+    max-width: 199px;
+  }
+  .about button {
+    font-size: 12px;
+    padding: 0px 46px;
+    margin-top: 0px;
+  }
+  .divImage {
+    min-height: 542px;
+  }
+}

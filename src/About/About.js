@@ -1,5 +1,6 @@
 import "../App.css";
 import "./About.css";
+import "./AboutMedia.css"
 import image from "../Images/About.jpg";
 import { useTranslation } from "react-i18next";
 

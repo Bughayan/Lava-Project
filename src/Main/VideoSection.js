@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import backgroundVideo from "../Videos/backgondVideo.mp4";
 import "./VideoSection.css";
+import "./VideoMedia.css"
 
 export default function VideoSction() {
   const { t } = useTranslation();

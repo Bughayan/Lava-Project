@@ -1,4 +1,5 @@
 import "./Header.css";
+import "./HederMedia.css";
 import "../App.css";
 import logo from "../Images/lava.png";
 import arm from "../Images/armenia.png";
@@ -57,7 +58,7 @@ export default function Header() {
   const hideDropDown = () => {
     timeRef.current = setTimeout(() => setDropdown(false), 300);
   };
-
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <header>
       <div className="container menu">
@@ -65,7 +66,16 @@ export default function Header() {
           <img src={logo} alt="logo" />
         </div>
 
-        <nav>
+        <nav className={menuOpen ? "open" : ""}>
+          <div
+            className={`menu_response ${menuOpen ? "div_class" : ""}`}
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
           <NavLink className="nav-link" to="/home">
             {t("navLinkWords.Home")}
           </NavLink>

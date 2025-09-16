@@ -6,6 +6,7 @@ import Vide0Sction from "./VideoSection";
 import Services from "../Services/Services"
 import Cards from "../Cards/Cards";
 import Pricing from "../Pricing/Pricing";
+import InfoPartners from "../InfoPartners/InfoPartners";
 
 export default function Main() {
   return (
@@ -17,6 +18,7 @@ export default function Main() {
       <Services/>
       <Cards/>
       <Pricing/>
+      <InfoPartners/>
     </main>
   );
 }

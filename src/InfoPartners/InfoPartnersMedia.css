@@ -1,0 +1,9 @@
+@media screen and (max-width: 1420px) {
+  .partners_section {
+    min-height: 560px;
+  }
+  .slider {
+    max-width: 1029px;
+    min-height: 174px;
+  }
+}

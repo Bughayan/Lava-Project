@@ -9,6 +9,7 @@ import logo3 from "../Images/logo/Logo_MAN.png";
 import logo4 from "../Images/logo/mercedes.png";
 import logo5 from "../Images/logo/Volvo-Logo.wine.png";
 import logo6 from "../Images/logo/renault.png";
+import "./InfoPartnersMedia.css"
 
 export default function InfoPartners() {
   var settings = {

@@ -1,6 +1,7 @@
 import cestionImg from "../Images/truck.png";
 import "./TruckRouting.css";
 import "../App.css"
+import "./TruckMedia.css"
 
 export default function TuckRouting() {
   return (

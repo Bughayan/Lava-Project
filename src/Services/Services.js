@@ -1,4 +1,5 @@
 import "./Services.css";
+import "./ServiceMedia.css"
 
 export default function Services() {
   return (

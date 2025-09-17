@@ -1,6 +1,11 @@
 @media screen and (max-width: 1365px) {
   .find {
-    max-width: 400px;
+    max-width: 367px;
+    padding-right: 0;
+
+  }
+  .find img {
+    max-height: 450px;
   }
 
   .find h1 {
@@ -8,9 +13,18 @@
   }
 }
 @media screen and (max-width: 1255px) {
+  .findDiv{
+    min-height: 620px;
+  }
   .find {
     max-width: 353px;
+    padding-right: 0;
+
   }
+   .find img {
+    max-height: 400px;
+  }
+
 
   .find h1 {
     font-size: 40px;
@@ -18,21 +32,113 @@
 }
 
 @media screen and (max-width: 1085px) {
+
+  .findDiv{
+    min-height: 610px;
+  }
   .find {
     max-width: 283px;
+    padding-right: 0;
   }
 
   .find h1 {
+    font-size: 35px;
+  }
+
+}
+
+@media screen and (max-width: 970px) {
+  /* .find {
+    max-width: 200px;
+  } */
+ .findDiv{
+    min-height: 520px;
+  }
+  .find h1 {
+    font-size: 30px;
+  }
+     .find img {
+    max-height: 350px;
+  }
+
+}
+
+@media screen and (max-width: 970px) {
+     .find img {
+    max-height: 200px;
+  }
+ .find h1 {
     font-size: 25px;
+  }
+ .findDiv{
+    min-height: 400px;
   }
 }
 
-@media screen and (max-width: 1041px) {
-  .find {
-    max-width: 200px;
+@media screen and (max-width: 670px) {
+     .find img {
+    max-height: 150px;
+  }
+ .find h1 {
+    font-size: 20px;
+  }
+ .findDiv{
+    min-height: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+     .find img {
+    max-height: 113px;
+  }
+ .find h1 {
+    font-size: 17px;
+  }
+ .findDiv{
+    min-height: 230px;
+  }
+    .find {
+    max-width: 220px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+    .find img {
+    max-height: 85px;
+  }
+ .find h1 {
+    font-size: 15px;
+  }
+ .findDiv{
+    min-height: 200px;
+  }
+    .find {
+    max-width: 185px;
+  }
+  .app_btn img {
+ 
+    object-fit: contain;
+  }
+}
+
+@media screen and (max-width: 400px) {
+    .find img {
+    max-height: 85px;
+  }
+ .find h1 {
+    font-size: 12px;
   }
 
-  .find h1 {
-    font-size: 18px;
+    .find {
+    max-width: 150px;
+  }
+    .app_btn img {
+ 
+    object-fit: contain;
+    max-width: 30px;
+  }
+.findDiv{
+    min-height: 120px;
   }
 }

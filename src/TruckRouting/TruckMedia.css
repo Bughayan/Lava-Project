@@ -1,0 +1,52 @@
+
+@media screen and (max-width: 1000px) {
+.text {
+    max-width: 278px;
+}
+
+.text h2{
+
+    font-size: 20px;
+}
+
+.text h1{
+    font-size: 44px;
+}
+}
+
+
+
+@media screen and (max-width: 590px) {
+.text {
+    max-width: 200px;
+}
+
+.text h2{
+
+    font-size: 14px;
+}
+
+.text h1{
+    font-size: 34px;
+}
+
+
+}
+
+
+@media screen and (max-width: 450px) {
+
+.text {
+    max-width: 278px;
+}
+
+.text h2{
+
+    font-size: 13pxpx;
+}
+
+.text h1{
+    font-size: 30px;
+}
+
+}

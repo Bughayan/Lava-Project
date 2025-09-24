@@ -77,7 +77,7 @@ export default function Pricing() {
                     return el.id > 10 && el.id < 15 ? (
                       <div key={el.id}>
                         <img src={checkmarks} />
-                        <p>{el.title.slice(0, 40)}</p>
+                        <p>{el.title.slice(0, 20)}</p>
                       </div>
                     ) : null;
                   })

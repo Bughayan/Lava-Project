@@ -25,6 +25,8 @@
   font-size: 60px;
   letter-spacing: 0.4px;
   font-family: "Rethink Sans", sans-serif;
+  z-index: 1000;
+  margin-bottom: -40px;
 }
 .storeButtons {
   display: flex;
@@ -42,9 +44,9 @@
   cursor: pointer;
 }
 
-/* .findImg {
-  max-width: 613px;
-} */
+.findImg {
+  margin-bottom: -40px;
+}
 
 /* .findImg img {
   width: 100%;

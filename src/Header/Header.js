@@ -5,7 +5,7 @@ import logo from "../Images/lava.png";
 import arm from "../Images/armenia.png";
 import usa from "../Images/usa.png";
 import rus from "../Images/russia.png";
-import { useRef, useState, useLayoutEffect } from "react";
+import { useRef, useState, useLayoutEffect, useEffect,  } from "react";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { removeLngPrefix } from "../i18n/i18n";
@@ -18,6 +18,22 @@ const flags = [
 ];
 
 export default function Header() {
+  
+  const [isActive, setIsActive] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsActive(true);
+      } else {
+        setIsActive(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   const {
     t,
     i18n,
@@ -60,7 +76,7 @@ export default function Header() {
   };
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <header>
+    <header className={`header ${isActive ? "active" : ""}`}>
       <div className="container menu">
         <div className="logo">
           <img src={logo} alt="logo" />

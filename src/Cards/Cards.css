@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;600;700&display=swap");
 
-
-/* .cards_parrent{
-  position: relative;
-} */
+.cards_parrent {
+  min-height: 700px;
+}
 .cards {
   max-width: 1500px;
   min-height: 604px;
@@ -12,9 +11,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 68px;
+  gap: 88px;
   /* transform: translate(200px, -261px); */
-   margin: -260px auto 0 auto;
+  margin: -260px auto 0 auto;
   /* position: absolute;
   top: -140px;
   left: 10%;
@@ -41,7 +40,7 @@
 }
 
 .card h1 {
-   font-family: "Rethink Sans", sans-serif;
+  font-family: "Rethink Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 36px;
@@ -80,5 +79,4 @@
   margin-top: 38px;
   cursor: pointer;
   margin-bottom: 30px;
-
 }

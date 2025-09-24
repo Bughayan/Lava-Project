@@ -7,7 +7,7 @@
   margin: 0 auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.5)),
     url("../Images/information_partners.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
   /* box-shadow: inset 0 0 80px rgba(0,0,0,0.7); */
@@ -25,6 +25,20 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+.slick-slider{
+  background-color: #fff;
+    max-width: 1344px;
+  min-height: 185px;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 63px;
+}
+.slick-list {
+top: 10px
 }
 
 .info_partner h1 {
@@ -50,25 +64,23 @@
   color: rgba(255, 255, 255, 1);
 }
 
-.slider {
+/* .slider {
   max-width: 1344px;
   min-height: 185px;
   border-radius: 20px;
-  background-color: #fff;
   text-align: center;
   align-items: center;
   margin: 0 auto;
   margin-top: 63px;
-}
+} */
 .img_div {
-  max-width: 155px;
-  height: 130px;
+  max-width: 122px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   margin: 0 auto;
-  padding-top: 19px;
+  padding-top: 21px;
   padding-bottom: 5px;
 }
 

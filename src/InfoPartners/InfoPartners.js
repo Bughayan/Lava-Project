@@ -9,15 +9,43 @@ import logo3 from "../Images/logo/Logo_MAN.png";
 import logo4 from "../Images/logo/mercedes.png";
 import logo5 from "../Images/logo/Volvo-Logo.wine.png";
 import logo6 from "../Images/logo/renault.png";
-import "./InfoPartnersMedia.css"
+import "./InfoPartnersMedia.css";
 
 export default function InfoPartners() {
+  //   var settings = {
+  //     dots: true,
+  //     infinite: true,
+  //     speed: 500,
+  //     slidesToShow: 6,
+  //     slidesToScroll: 1,
+  //   };
+
   var settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 6,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 350,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   let arr_logo = [
@@ -26,12 +54,13 @@ export default function InfoPartners() {
     logo3,
     logo4,
     logo5,
-    logo1,
-    logo2,
+    logo6,
     logo3,
     logo4,
     logo5,
-    logo6,
+    logo3,
+    logo4,
+    logo5,
   ];
   return (
     <>

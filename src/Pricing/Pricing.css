@@ -6,7 +6,7 @@
   flex-direction: column;
   margin: 0 auto;
   margin: 14px auto 0 auto;
-  margin-top: 170px;
+  margin-top: 70px;
   margin-bottom: 161px;
   /* position: absolute;
   top: 50%;
@@ -47,12 +47,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 61px;
+  gap: 88px;
   margin-top: 84px;
 }
 .price_card {
   background-color: rgba(98, 68, 242, 1);
-  max-width: 378px;
+  max-width: 387px;
   min-height: 604px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
